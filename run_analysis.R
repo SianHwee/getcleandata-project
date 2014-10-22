@@ -68,7 +68,7 @@ tidydata<-summarise_each(tidydata,funs(mean))  #summarise the remaining columns 
 
 #tidydata is the final data set to be returned
 
-#write.table(tidaydata,file="./output.txt")  #write to a .txt file
+#write.table(tidaydata,file="./tidydata.txt",row.name=FALSE)  #write to a .txt file
 
 
 
